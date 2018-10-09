@@ -1,3 +1,5 @@
 auth/lib
 auth/path
 *.pyc
+
+service-account.json
