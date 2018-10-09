@@ -15,7 +15,7 @@ import requests
 
 from oauth2client.service_account import ServiceAccountCredentials
 
-PROJECT_ID = '<YOUR-PROJECT-ID>'
+PROJECT_ID = 'fjelltopp-collect'
 BASE_URL = 'https://fcm.googleapis.com'
 FCM_ENDPOINT = 'v1/projects/' + PROJECT_ID + '/messages:send'
 FCM_URL = BASE_URL + '/' + FCM_ENDPOINT
